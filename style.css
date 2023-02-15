@@ -60,6 +60,14 @@ p strong {
     color: var(--purple);
 }
 
+.info p strong {
+    cursor: pointer;
+}
+
+.info p strong:hover {
+    color: var(--pink);
+}
+
 #footer{
     margin: 90px;
 }
